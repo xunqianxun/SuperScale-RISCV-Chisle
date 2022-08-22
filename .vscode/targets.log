@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 30 12:03:31 2022
+# Make data base, printed on Mon Aug 22 14:35:07 2022
 
 # Variables
 
@@ -31,7 +31,7 @@ XDG_SESSION_TYPE = x11
 # environment
 IM_CONFIG_PHASE = 1
 # environment
-PLATFORMIO_IDE = 2.5.1
+PLATFORMIO_IDE = 2.5.2
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -49,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:36623
+JOURNAL_STREAM = 8:44884
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -78,7 +78,9 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-MANAGERPID = 1956
+MANAGERPID = 1950
+# environment
+CLUTTER_IM_MODULE = fcitx
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -96,7 +98,7 @@ NO_PROXY = 127.0.0.1
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/mulin-XPS-13-7390:@/tmp/.ICE-unix/2553,unix/mulin-XPS-13-7390:/tmp/.ICE-unix/2553
+SESSION_MANAGER = local/guoqili-xps-13:@/tmp/.ICE-unix/2560,unix/guoqili-xps-13:/tmp/.ICE-unix/2560
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -104,7 +106,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 894fc12b3dde4f5eaa4e0bc20e939773
+INVOCATION_ID = 17a36fc3a10f42c4b75a254f7e208dbf
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -114,7 +116,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 130277
+GIO_LAUNCHED_DESKTOP_FILE_PID = 30596
 # automatic
 %F = $(notdir $%)
 # environment
@@ -128,7 +130,7 @@ NAVY_HOME = /home/mulin/ysyx-workbench/navy-apps
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2515
+SSH_AGENT_PID = 2514
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -140,7 +142,7 @@ HOME = /home/mulin
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/mulin/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/mulin/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LOGNAME = mulin
 # environment
@@ -194,7 +196,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_US:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-e2791fd3-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e2791fd3-1.70.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -209,8 +211,6 @@ NEMU_HOME = /home/mulin/ysyx-workbench/nemu
 GDK_BACKEND = x11
 # environment
 LC_PAPER = zh_CN.UTF-8
-# environment
-NO_AT_BRIDGE = 1
 # environment
 QT_ACCESSIBILITY = 1
 # makefile (from 'Makefile', line 6)
@@ -227,6 +227,8 @@ PLATFORMIO_CALLER = vscode
 LC_MEASUREMENT = zh_CN.UTF-8
 # environment
 LC_ALL = C
+# environment
+QT4_IM_MODULE = fcitx
 # automatic
 ^F = $(notdir $^)
 # default
@@ -236,7 +238,7 @@ CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
 # environment
-NPC_HOME = /home/mulin/SuperScale-RISCV-Chisel/npc
+NPC_HOME = /home/mulin/ysyx-workbench/npc
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
@@ -250,9 +252,9 @@ LANG = C
 # environment
 TERM = term-color
 # environment
-VSCODE_PID = 130277
+VSCODE_PID = 30596
 # variable set hash-table stats:
-# Load=118/1024=12%, Rehash=0, Collisions=19/143=13%
+# Load=119/1024=12%, Rehash=0, Collisions=19/144=13%
 
 # Pattern-specific Variable Values
 
@@ -320,6 +322,6 @@ _default:
 # strcache performance: lookups = 22 / hit rate = 31%
 # hash-table stats:
 # Load=15/8192=0%, Rehash=0, Collisions=1/22=5%
-# Finished Make data base on Sat Jul 30 12:03:31 2022
+# Finished Make data base on Mon Aug 22 14:35:07 2022
 
  
