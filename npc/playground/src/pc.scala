@@ -13,10 +13,10 @@ class pc extends Module{
 
     val Pc_reg = RegInit("x80000000".U(64.W))
 
-    when(idrb1_ena)       {Pc_reg := idrb1_addr}
-    .elsewhen(idrb2_ena)  {Pc_reg := idrb2_addr}
-    .elsewhen(pc_stall)   {Pc_reg := Pc_reg    }  
-    .otherwise            {Pc_reg := fect_addr }
+    when(io.idrb1_ena)       {Pc_reg := io.idrb1_addr}
+    .elsewhen(io.idrb2_ena)  {Pc_reg := io.idrb2_addr}
+    .elsewhen(io.pc_stall)   {Pc_reg := Pc_reg    }  
+    .otherwise               {Pc_reg := io.fect_addr }
     
     io.pc := Pc_reg
     
