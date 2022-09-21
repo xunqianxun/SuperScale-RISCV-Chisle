@@ -1,7 +1,7 @@
 import chisel3._
 
 class pc extends Module{
-    val io = IO(nwe Bundle {
+    val io = IO(new Bundle {
         val fect_addr       = Input(UInt(64.W))
         val pc_stall        = Input(Bool())
         val idrb1_addr      = Input(UInt(64.W))
