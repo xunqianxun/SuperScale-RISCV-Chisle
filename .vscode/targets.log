@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Feb 13 17:39:07 2023
+# Make data base, printed on Fri Feb 17 12:30:56 2023
 
 # Variables
 
@@ -102,13 +102,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7198
+VSCODE_PID = 5436
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/guoqili-xps-13:@/tmp/.ICE-unix/2728,unix/guoqili-xps-13:/tmp/.ICE-unix/2728
+SESSION_MANAGER = local/guoqili-xps-13:@/tmp/.ICE-unix/2740,unix/guoqili-xps-13:/tmp/.ICE-unix/2740
 # automatic
 *F = $(notdir $*)
 # environment
@@ -130,7 +130,7 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=fcitx
 # environment
-NPC_HOME = /home/mulin/ysyx-workbench/npc
+NPC_HOME = /home/mulin/SuperScale-RISCV-Chisel/npc
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
@@ -152,7 +152,7 @@ LC_MONETARY = zh_CN.UTF-8
 # environment
 LC_TIME = zh_CN.UTF-8
 # environment
-INVOCATION_ID = 1c2383a5e03e44c0809b265a7e5f55fd
+INVOCATION_ID = 4852ef70109642b78816bb8cb26be6bf
 # environment
 USERNAME = mulin
 # environment
@@ -184,7 +184,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := _default
 # environment
-SYSTEMD_EXEC_PID = 2748
+SYSTEMD_EXEC_PID = 2759
 # environment
 NAVY_HOME = /home/mulin/ysyx-workbench/navy-apps
 # environment
@@ -196,11 +196,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2380
+MANAGERPID = 2390
 # environment
 LC_MEASUREMENT = zh_CN.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7198
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5436
 # makefile (from 'Makefile', line 1)
 STUID = ysyx_22040228
 # environment
@@ -212,7 +212,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:35360
+JOURNAL_STREAM = 8:21453
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -281,13 +281,13 @@ Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-03-01 18:20:19.081712
 #  File has been updated.
- 
 #  Successfully updated.
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -316,6 +316,6 @@ all:
 # strcache performance: lookups = 21 / hit rate = 33%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Mon Feb 13 17:39:07 2023
+# Finished Make data base on Fri Feb 17 12:30:56 2023
 
  
